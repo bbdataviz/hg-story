@@ -1,0 +1,17 @@
+export default function SideNotesStep13() {
+  return (
+    <>
+      <p className="text text-side"> 
+        Sleep disturbances are common and can place a considerable psychological burden on affected women.
+      </p>
+      <div className="missing-data">
+        <div className="info-icon">
+          <p>i</p>
+        </div>
+        <div className="missing-data-text">
+          Data on sleep disturbances was not available from month 4 onward.
+        </div>
+      </div> 
+    </>
+  )
+}

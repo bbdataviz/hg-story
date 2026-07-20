@@ -1,0 +1,110 @@
+:root {
+  --text: #3c3c3c;
+  --d3labels: #222;
+  --white: whitesmoke;
+  --darkrose: #d87093;
+  --lightrose: #e6b9cf;
+  --lightgreen: #9ff4c4;
+  --nausea: #afdbaf;
+  --drowsiness: #afc1e4;
+  --headache: #ff794b;
+  --lightlavendel: #e9d6fbff;
+  --tooltip: #f4e8fe;
+  --lightviolet: #8865a3;
+  --scrollthumb: #4e4a54;
+  --scrolltrack: #2a2929;
+  --link: #75409e;
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+/* font embedding */
+@font-face {
+  font-family: 'greatthings';
+  src: url('../font/greatthings/goingtodogreatthings-webfont.woff2') format('woff2'),
+    url('../font/greatthings/goingtodogreatthings-webfont.woff') format('woff'),
+    url('../font/greatthings/goingtodogreatthings-webfont.ttf') format('truetype'),
+    url('../font/greatthings/goingtodogreatthings-webfont.svg#goingtodogreatthingsmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ink_freeregular';
+  src: url('../font/inkfreeweb/inkfree-webfont.eot');
+  src: url('../font/inkfreeweb/inkfree-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/inkfreeweb/inkfree-webfont.woff2') format('woff2'),
+    url('../font/inkfreeweb/inkfree-webfont.woff') format('woff'),
+    url('../font/inkfreeweb/inkfree-webfont.ttf') format('truetype'),
+    url('../font/inkfreeweb/inkfree-webfont.svg#ink_freeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  font-family: 'ink_freeregular';
+  margin: 0;
+}
+
+#root {
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+html {
+  /* First color is the thumb, second color is the track background */
+  scrollbar-color: var(--scrollthumb) var(--scrolltrack); 
+  scrollbar-width: thin; /* Can be 'auto' or 'thin' */
+}
+
+/* --- 2. WebKit (Chrome, Safari, Edge) Styling --- */
+
+/* Width of the overall scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; /* For horizontal scrollbars */
+}
+
+/* The track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: var(--scrolltrack);
+  border-radius: 8px;
+}
+
+/* The thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollthumb);
+  border-radius: 8px;
+}
+
+/* Thumb style on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--thumb);
+}

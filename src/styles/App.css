@@ -181,19 +181,18 @@
   line-height: clamp(1.9rem, 4.7vw, 2.7rem);
   padding: 3vw;
   background-color: #e9d6fbcc;
-}
-
-.vis-side-notes {
   position: relative;
   flex: 2;
   overflow: hidden;
   min-width: 0;
   padding-top: 60%;
   margin-left: 2rem;
-
   border-left: 1px solid #bbb;
 }
 
+.text-side {
+  border-left: none;
+}
 
 
 /* data-intro */

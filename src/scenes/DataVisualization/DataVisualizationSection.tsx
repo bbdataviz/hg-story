@@ -30,8 +30,8 @@ export default function DataVisualizationSection({ index, onEnter}: Props) {
 
   const opacity = useTransform(
     scrollYProgress,
-    [0, 0.05, 0.95, 1],
-    [0, 1, 1, 0]
+    [0, 0.05, 1, 1],
+    [0, 1, 1, 1]
   );
 
   const state = useVisualizationState(vizScene);

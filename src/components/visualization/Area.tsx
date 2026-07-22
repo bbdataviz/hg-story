@@ -361,10 +361,10 @@ export default function Area({ visible, scaleType, data, symptom, color, animate
           return (
             <g key={d.month}>
               <rect
-                x={x - 10}
-                y={y - 5}
+                x={x - 15}
+                y={y - 7}
                 width={30}
-                height={20}
+                height={14}
                 fill="transparent"
                 style={{
                   pointerEvents: visible ? "auto" : "none",

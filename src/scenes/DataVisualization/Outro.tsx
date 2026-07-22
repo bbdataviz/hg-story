@@ -32,19 +32,18 @@ export default function Conclusion({ vizScene, onEnter}: Props) {
     style={{ opacity, scale }}
     onViewportEnter={() => onEnter(vizScene)}
     >
-      <div className="outro">
+    
+      <p className="text text-side outro"> 
+        Despite the heavy burden of Hyperemesis Gravidarum, many mothers are happy and relieved when they finally hold their child in their arms. <br/><br/>
 
-        <p className="text text-side"> 
-          Despite the heavy burden of Hyperemesis Gravidarum, many mothers are happy and relieved when they finally hold their child in their arms. <br/><br/>
+        For some women, however, the emotional and physical effects do not end with pregnancy. 
+        Recovery can take time, and the experience may leave lasting psychological or physical consequences. 
+        Recognizing these challenges and providing timely support can make a meaningful difference. <br/><br/>
 
-          For some women, however, the emotional and physical effects do not end with pregnancy. 
-          Recovery can take time, and the experience may leave lasting psychological or physical consequences. 
-          Recognizing these challenges and providing timely support can make a meaningful difference. <br/><br/>
-
-          If you or someone you know experiences persistent nausea and vomiting during pregnancy, don't hesitate to seek medical advice. 
-          Effective treatments and supportive care are available, and early intervention can help reduce the burden of the condition.    
-        </p>
-      </div>
+        If you or someone you know experiences persistent nausea and vomiting during pregnancy, don't hesitate to seek medical advice. 
+        Effective treatments and supportive care are available, and early intervention can help reduce the burden of the condition.    
+      </p>
+   
     </motion.section>
   )
 }

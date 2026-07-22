@@ -35,16 +35,17 @@ export default function Info({ vizScene, onEnter}: Props) {
     >
       <div className="info">
 
-    </div>
-      <p className="text text-side"> 
-        Hyperemesis Gravidarum is more than morning sickness. <br/>
-        Understanding it is the first step toward better care.<br/><br/>
-        For more Information and Stories about HG experiences visit: <br/><br/>
-        <a className="web-link" href="https://www.hyperemesis.org/" target="_blank"> www.hyperemesis.org </a>
+        <p className="text text-side outro"> 
+          Hyperemesis Gravidarum is more than morning sickness. <br/>
+          Understanding it is the first step toward better care.<br/><br/>
+          For more Information and Stories about HG experiences visit: <br/><br/>
+          <a className="web-link" href="https://www.hyperemesis.org/" target="_blank"> www.hyperemesis.org </a>
+        </p>
         <br/><br/>
         <hr/>
+
         <div className="moba-data">
-          <p className="moba-data">
+          <p>
             The Norwegian Mother, Father and Child Cohort Study is supported by the Norwegian
             Ministry of Health and Care Services and the Ministry of Education and Research. We are
             grateful to all the participating families in Norway who take part in this on-going cohort
@@ -52,8 +53,8 @@ export default function Info({ vizScene, onEnter}: Props) {
           </p>
         </div>
         
-       
-      </p>
+      </div>
+      
     </motion.section>
   )
 }

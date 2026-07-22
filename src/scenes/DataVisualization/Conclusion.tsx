@@ -33,7 +33,7 @@ export default function Conclusion({ vizScene, onEnter}: Props) {
     onViewportEnter={() => onEnter(vizScene)}
 
     >
-      <p className="text text-side"> 
+      <p className="text text-side outro"> 
         Comparing both groups side by side reveals which symptoms are closely associated with nausea and vomiting and which are common during pregnancy regardless of group.      
       </p>
     </motion.section>

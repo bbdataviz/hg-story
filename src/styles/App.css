@@ -314,7 +314,7 @@
 }
 
 .transition-page {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -322,7 +322,6 @@
 
 .transition-page p{
   width: 70vw;
-  margin-top: -100vh;
 }
 
 .conclusion {

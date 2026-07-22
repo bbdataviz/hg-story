@@ -67,11 +67,10 @@ export default function DataVisualizationSection({ index, onEnter}: Props) {
 
           <motion.div
             animate={{
-                opacity: state.showComparison ? 1 : 0
+                opacity: state.showComparison ? 1 : 0.8
             }}
             transition={{
-                duration: 1,
-                delay: 3
+                duration: 0.3
             }}
             style={{
                 pointerEvents: state.showComparison ? "auto" : "none"

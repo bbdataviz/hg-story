@@ -106,6 +106,12 @@ export default function DataVisualization({ vizScene, state, zoomed, mode, hasIn
     );
   }, [state.showTransition]);
 
+  console.log({
+    vizScene,
+    showComparison: state.showComparison,
+    showIceberg: state.showIceberg,
+});
+
 
   return (
     <div className="chart-container">
@@ -165,7 +171,6 @@ export default function DataVisualization({ vizScene, state, zoomed, mode, hasIn
               transition={transition}
             />
 
-
             <Area 
               visible={state.showFatiguePopulation}
               scaleType="population"
@@ -181,7 +186,6 @@ export default function DataVisualization({ vizScene, state, zoomed, mode, hasIn
               transition={transition}
             />
 
-            
             <YAxisReversed visible={state.showIceberg} />
            
             <Area 

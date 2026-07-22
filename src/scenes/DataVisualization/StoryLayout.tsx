@@ -37,8 +37,7 @@ export default function DataVisualizationSection({ vizScene, onEnter, hasInterac
     offset: ["start end", "end start"]
   })
 
-  const opacity = useTransform(scrollYProgress, [0, 0.1, 0.95, 1], [0, 1, 1, 0.95]);
-  const scale = useTransform(scrollYProgress, [0, 0.1, 0.95, 1], [0.95, 1, 1, 0.95]);
+  const opacity = useTransform(scrollYProgress, [0, 0.1, 0.95, 1], [0, 1, 1, 0]);
 
   {/* progressive disclosure logic */}
   const state = useVisualizationState(vizScene);
@@ -59,7 +58,7 @@ export default function DataVisualizationSection({ vizScene, onEnter, hasInterac
           onEnter(vizScene);
         }}
         viewport={{ amount: 0.5 }}
-        style={{ opacity, scale }}
+        style={{ opacity }}
       >
 
         <div className="vis-container">

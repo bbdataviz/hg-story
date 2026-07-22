@@ -45,7 +45,7 @@ export function useVisualizationState(currentScene: number) {
 
     showDepressions: currentScene >= 32,
 
-    showComparison: currentScene >= 33,
+    showComparison: currentScene >= 34,
 
 
   }

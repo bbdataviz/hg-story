@@ -188,7 +188,7 @@ export default function Area({ visible, scaleType, data, symptom, color, animate
               width: visible ? innerWidth + 200 : 0
             }}
             transition={{
-              delay: 0.8,
+              delay: 0.5,
               duration: 3,
               ease: "easeOut"
             }}

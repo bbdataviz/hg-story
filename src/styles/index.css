@@ -37,15 +37,6 @@
 }
 
 /* font embedding */
-@font-face {
-  font-family: 'greatthings';
-  src: url('../font/greatthings/goingtodogreatthings-webfont.woff2') format('woff2'),
-    url('../font/greatthings/goingtodogreatthings-webfont.woff') format('woff'),
-    url('../font/greatthings/goingtodogreatthings-webfont.ttf') format('truetype'),
-    url('../font/greatthings/goingtodogreatthings-webfont.svg#goingtodogreatthingsmedium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'ink_freeregular';

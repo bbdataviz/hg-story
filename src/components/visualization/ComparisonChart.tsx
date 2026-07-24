@@ -241,6 +241,7 @@ export default function DataVisualization({ vizScene, state, mode, setInteracted
             <SymptomPanel 
               vizScene={vizScene} 
               group="no_nv"
+              mode="comparison"
             />
           )}
 

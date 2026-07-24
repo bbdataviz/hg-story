@@ -112,24 +112,24 @@ export default function DataVisualization({ vizScene, state, mode, setInteracted
             style={{ y: chartYOffset }}
           >
             <ChartTitle 
-              visible={state.showComparison}
+              visible={state.showIceberg}
               title="No Nausea with Vomiting"
             />
                   
             <XAxis 
-              visible={state.showComparison}
+              visible={state.showIceberg}
               chartCompression={chartCompression}
               moveDown={mode === "comparison" ? false : state.showIceberg} // treat X axis
               mode="comparison"
             />
 
             <YAxis 
-              visible={state.showComparison}
+              visible={state.showIceberg}
               chartCompression={chartCompression}
             />
 
             <Area 
-              visible={state.showComparison}
+              visible={state.showIceberg}
               scaleType="population"
               data={noNauseaVomiting}
               symptom="no_nausea_vomiting"
@@ -216,7 +216,7 @@ export default function DataVisualization({ vizScene, state, mode, setInteracted
             />
 
             <Waterline 
-              visible={state.showComparison}
+              visible={state.showIceberg}
               waterlineY={waterlineY}
             />
           
@@ -237,11 +237,10 @@ export default function DataVisualization({ vizScene, state, mode, setInteracted
       <div className="supporting-panel">
         <AnimatePresence mode="wait">
 
-          {state.showComparison && (
+          {state.showIceberg && (
             <SymptomPanel 
               vizScene={vizScene} 
               group="no_nv"
-              mode="comparison"
             />
           )}
 

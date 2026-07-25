@@ -43,7 +43,7 @@ The application combines both experimental story versions using a *Martini Glass
 | ![Exhausted face of protagonist](./screenshots/intro-3.png) | ![Protagonist drowning in the ocean](./screenshots/intro-4.png) |
 | Conveying emotional burden through illustration | Defining Hyperemsis Gravidarum (HG) |
 
-### Explain the Disease and Prevalence
+### Explain the Disease
 | | |
 |---|---|
 | ![Exhausted face of protagonist](./screenshots/explain-disease.png) | ![Protagonist drowning in the ocean](./screenshots/hg-prevalence.png) |

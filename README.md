@@ -32,38 +32,37 @@ The application combines both experimental story versions using a *Martini Glass
 ## 📖 Narrative Structure
 
 ### Narrative Introduction 
-| | |
+
 |---|---|
 | ![Character illustration](./screenshots/intro-1.png) | ![Topic illustration](./screenshots/intro-2.png) |
 | Introducing the protagonist | Introducing the pregnancy topic |
 
 ### Conflict and Disease Experience
-| | |
+
 |---|---|
 | ![Exhausted face of protagonist](./screenshots/intro-3.png) | ![Protagonist drowning in the ocean](./screenshots/intro-4.png) |
 | Conveying emotional burden through illustration | Defining Hyperemsis Gravidarum (HG) |
 
 ### Explain the Disease
-| | |
+
 |---|---|
 | ![Exhausted face of protagonist](./screenshots/explain-disease.png) | ![Protagonist drowning in the ocean](./screenshots/hg-prevalence.png) |
 | Illustrating the biological mechanism | HG Prevalence |
 
 ### Data Visualization – Building Understanding
-| | |
+
 |---|---|
 | ![Prevalence of the main symptom](./screenshots/dataviz-nausea-with-vomiting.png) | ![Zoom animation for small values of hospitalization in severe cases](./screenshots/dataviz-zoom.png) |
 | Prevalence of nausea with vomiting | Animated focus on hospitalization rates |
 
 ### Data Visualization – Revealing Hidden Burden
-| | |
+
 |---|---|
 | ![Introducing the Iceberg metaphor](./screenshots/dataviz-iceberg.png) | ![Introducing 4 side-symtoms step-by-step with additional quotes](./screenshots/dataviz-symptoms.png) |
 | Iceberg metaphor revealing hidden disease burden | Progressive disclosure of additional symptoms and patient experiences |
 
 ### Comparison and Resolution
-| | |
-| Individual Perspective | Collective Perspective |
+
 |---|---|
 | ![Comparising focus group to group without main symptom](./screenshots/comparison.png) | ![Text reflecting women's statements after pregnancy and explaining long-lasting effects of HG beyond pregnancy](./screenshots/resolution.png) |
 | Comparitive Visualization | Addtional explanation about HG beyond pregnancy |

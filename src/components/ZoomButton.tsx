@@ -44,7 +44,7 @@ export default function ZoomButton({visible, zoomed, setZoomed}: VisProps) {
         scale: visible ? 1 : 0.9
       }}
       transition={{
-        duration: 0.5
+        duration: 0.2
       }}
 
       onHoverStart={() => setHovered(true)}

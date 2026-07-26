@@ -5,7 +5,7 @@ export default function DataVisIntro() {
     <>
       <p className="text text-white"> Symptoms beneath the Surface </p>
       
-      <div className="img-container img-dv-intro">
+      <div className="img-dv-intro">
         <img src={img}></img>
       </div>
 

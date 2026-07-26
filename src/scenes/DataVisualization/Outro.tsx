@@ -33,7 +33,7 @@ export default function Conclusion({ vizScene, onEnter}: Props) {
     onViewportEnter={() => onEnter(vizScene)}
     >
     
-      <p className="text text-side outro"> 
+      <p className="text outro"> 
         Despite the heavy burden of Hyperemesis Gravidarum, many mothers are happy and relieved when they finally hold their child in their arms. <br/><br/>
 
         For some women, however, the emotional and physical effects do not end with pregnancy. 

@@ -35,7 +35,7 @@ export default function Info({ vizScene, onEnter}: Props) {
     >
       <div className="info">
 
-        <p className="text text-side outro"> 
+        <p className="text outro"> 
           Hyperemesis Gravidarum is more than morning sickness. <br/>
           Understanding it is the first step toward better care.<br/><br/>
           For more Information and Stories about HG experiences visit: <br/><br/>

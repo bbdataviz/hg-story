@@ -6,7 +6,7 @@ export const chartConfig = {
   margin: {
     top: 80,
     right: 90,
-    bottom: 40,
+    bottom: 38,
     left: 65
   },
   get innerWidth() {

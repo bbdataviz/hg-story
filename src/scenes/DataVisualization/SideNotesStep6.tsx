@@ -9,7 +9,7 @@ interface ZoomProps {
 
 export default function SideNotesStep6({state, zoomed, setZoomed}: ZoomProps) {
   return (
-    <div className="side-notes-column">
+    <div className="vis-side-notes side-notes-column">
       <p className="text text-side-item"> 
         Hospitalization is difficult to see at this scale.
       </p>

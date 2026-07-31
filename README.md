@@ -71,7 +71,7 @@ The application combines both experimental story versions using a *Martini Glass
 
 🚀 Live Demo
 
-View project: hg-story.vercel.app
+View project: [hg-story.vercel.app](https://www.hg-story.vercel.app)
 
 - Live deployment with automatic updates via Vercel
 - Real-time NOAA SWPC data integration

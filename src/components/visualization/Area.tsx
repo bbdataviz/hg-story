@@ -253,41 +253,31 @@ export default function Area({ visible, scaleType, data, symptom, color, animate
   const areaGradient = 
     revealDirection === "iceberg" ? (
       <>
-        <stop
-          offset="0%"
-          stopColor={`${color}55`}
-        />
-        <stop
-          offset="100%"
-          stopColor={`${color}`}
-        />
+        <stop offset="0%" stopColor={`${color}55`}/>
+        <stop offset="100%" stopColor={`${color}`}/>
       </>
     ) : (
       <>
-        <stop
-          offset="0%"
-          stopColor={`${color}`}
-        />
-        <stop
-          offset="100%"
-          stopColor={`${color}55`}
+        <stop offset="0%" stopColor={`${color}`}/>
+        <stop offset="100%" stopColor={`${color}55`}
         />
       </>
     );
       
   const gradientMask =
-    revealDirection === "population" ? (
-      <>
-        <stop offset="0%" stopColor="black" />
-        <stop offset="10%" stopColor="white" />
-        <stop offset="100%" stopColor="white" />
-      </>
-    ) : (
+    revealDirection === "timeline" ? (
       <>
         <stop offset="0%" stopColor="white" />
         <stop offset="90%" stopColor="white" />
-        <stop offset="100%" stopColor="black" />
+        <stop offset="100%" stopColor="black"/>
       </>
+    ) : (
+      <>
+        <stop offset="0%" stopColor="black" />
+        <stop offset="10%" stopColor="white" />
+        <stop offset="100%" stopColor="white"/>
+      </>
+      
   );
 
 

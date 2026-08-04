@@ -88,7 +88,7 @@ export default function DataVisualization({ vizScene, state, mode, setInteracted
       transition,
       state.showTransition ? 1 : 0,
       {
-        duration: 0.5,
+        duration: 0.3,
         ease: "easeInOut",
       }
     );

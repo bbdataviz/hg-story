@@ -17,13 +17,13 @@ export function useVisualizationState(currentScene: number) {
 
     showDataPointAnnotation: currentScene === 22,
 
-    showHospitalization: currentScene >= 23 && currentScene <= 25,
+    showHospitalization: currentScene >= 23 && currentScene <= 25 || (currentScene >= 30),
     
     animateHospitalization: currentScene === 23,
 
     showZoomButton: currentScene === 24,
 
-    showFatiguePopulation: currentScene >= 25 && currentScene <= 28,
+    showFatiguePopulation: currentScene >= 25 && currentScene <= 27,
 
     showSymptomPanel: currentScene >=25,
 
@@ -32,7 +32,7 @@ export function useVisualizationState(currentScene: number) {
     showWaterline: currentScene >= 27,
 
 
-    showNVTransition: currentScene >= 27 && currentScene === 28,
+    showNVTransition: currentScene >= 27 && currentScene <= 28,
 
     showFatigueTransition: currentScene >= 27,
 

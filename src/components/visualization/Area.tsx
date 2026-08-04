@@ -250,19 +250,12 @@ export default function Area({ visible, scaleType, data, symptom, color, animate
     }
   })();
 
-  const areaGradient = 
-    revealDirection === "iceberg" ? (
-      <>
-        <stop offset="0%" stopColor={`${color}55`}/>
-        <stop offset="100%" stopColor={`${color}`}/>
-      </>
-    ) : (
+  const areaGradient =
       <>
         <stop offset="0%" stopColor={`${color}`}/>
         <stop offset="100%" stopColor={`${color}55`}
         />
       </>
-    );
       
   const gradientMask =
     revealDirection === "timeline" ? (

@@ -77,7 +77,8 @@ export default function DataVisualization({ vizScene, state, zoomed, mode, hasIn
     );
   }, [state.showIceberg]);
 
-  {/* Whenever chartYOffset changes, map values to chartCompression, e.g., [0 0], [-27.5, -20], ..., [-110, -80] */}
+  {/* Whenever chartYOffset changes, map values to chartCompression, 
+    e.g., [0 0], [-27.5, -20], ..., [-110, -80] */}
   const moveUpOffset = -110
   const compressionOffset = -70
 
@@ -243,6 +244,7 @@ export default function DataVisualization({ vizScene, state, zoomed, mode, hasIn
               zoomed={zoomed}
               seriesCount={seriesCount}
               chartCompression={chartCompression}
+              tooltipmode="population"
               transition={transition}
             />
 
@@ -288,7 +290,6 @@ export default function DataVisualization({ vizScene, state, zoomed, mode, hasIn
             />
           )}
           </motion.g>
-          
         </g>
       </svg>
 

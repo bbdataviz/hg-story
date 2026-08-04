@@ -324,11 +324,9 @@ export default function Area({ visible, scaleType, data, symptom, color, animate
         {areaData.map((d) => {
           // const value = d.population_pct as number;
 
-          
-
-           // decide value for tooltip based on state of the chart
+          // decide value for tooltip based on state of the chart
           const tooltipValue =
-            (transitionValue < 1 || tooltipmode === "population")
+            (tooltipmode === "population")
               ? d.population_pct as number
               : d.within_group_pct as number;
 

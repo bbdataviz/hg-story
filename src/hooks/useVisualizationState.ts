@@ -17,7 +17,7 @@ export function useVisualizationState(currentScene: number) {
 
     showDataPointAnnotation: currentScene === 22,
 
-    showHospitalization: currentScene >= 23 && currentScene <= 25 || (currentScene >= 30),
+    showHospitalization: (currentScene >= 23 && currentScene <= 25) || currentScene >= 30,
     
     animateHospitalization: currentScene === 23,
 
@@ -36,7 +36,7 @@ export function useVisualizationState(currentScene: number) {
 
     showFatigueTransition: currentScene >= 27,
 
-    showTransition: currentScene >= 28, // useEffect, animate, transition
+    showTransition: currentScene >= 28, 
 
 
     showHeadaches: currentScene >= 30,
